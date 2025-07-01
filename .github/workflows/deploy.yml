@@ -36,6 +36,16 @@ jobs:
 
       - name: 4. Build do 'ondg-planos'
         run: pnpm turbo build --filter=ondg-planos
+        
+      # --- PASSO DE DIAGNÓSTICO ---
+      # Adicione este passo para verificar o que foi gerado
+      - name: 4.5. Verificar o conteúdo da pasta de build
+        run: |
+          echo "Verificando o que existe na raiz do projeto..."
+          ls -l
+          echo "--------------------------------------------------"
+          echo "Verificando o conteúdo da pasta 'apps/ondg-planos/out'..."
+          ls -R ./apps/ondg-planos/out
 
       - name: 5. Deploy para o repositório
         uses: peaceiris/actions-gh-pages@v4
