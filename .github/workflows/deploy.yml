@@ -36,7 +36,7 @@ jobs:
 
       - name: 4. Build do 'ondg-planos'
         run: pnpm turbo build --filter=ondg-planos
-        
+
       # --- PASSO DE DIAGNÓSTICO ---
       # Adicione este passo para verificar o que foi gerado
       - name: 4.5. Verificar o conteúdo da pasta de build
@@ -44,8 +44,8 @@ jobs:
           echo "Verificando o que existe na raiz do projeto..."
           ls -l
           echo "--------------------------------------------------"
-          echo "Verificando o conteúdo da pasta 'apps/ondg-planos/out'..."
-          ls -R ./apps/ondg-planos/out
+          echo "Verificando o conteúdo da pasta 'apps/ondg-planos/build'..."
+          ls -R ./apps/ondg-planos/build
 
       - name: 5. Deploy para o repositório
         uses: peaceiris/actions-gh-pages@v4
@@ -55,7 +55,7 @@ jobs:
           # O repositório de destino
           external_repository: Parau/ondg-planos
           # A pasta que contém o resultado do build do 'ondg-planos'
-          publish_dir: ./apps/ondg-planos/out
+          publish_dir: ./apps/ondg-planos/build
           # A branch no repositório de destino
           publish_branch: gh-pages
           # Informações do usuário que fará o commit (o bot)
