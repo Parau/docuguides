@@ -4,8 +4,11 @@ title: Contação de História
 sidebar_label: Contação de história
 sidebar_position: 1
 ---
-import ReactPlayer from 'react-player/youtube';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import BrowserOnly from '@docusaurus/BrowserOnly';
+
+{/*import ReactPlayer from 'react-player/youtube';*/}
+
 
 ![plano de aula usando o livro digital o nome da gente na biblioteca com acesso à computadores e Internet](./assets/farol-do-saber.jpg)
 ## Finalidade
@@ -71,9 +74,18 @@ Para a realização desta aula consideramos importante que os alunos já possuam
 
 ## Exemplo
 Veja este roteiro em ação com a participação da autora Naira Passoni na 2ª Parada Literária Curitibana.
-<center>
+
+<BrowserOnly>
+  {() => {
+    const ReactPlayer = require('react-player/youtube');
+    return <ReactPlayer url="https://www.youtube.com/watch?v=r0OQ4U7O2Nc" />;
+  }}
+</BrowserOnly>
+
+{/*<center>
 <ReactPlayer url='https://www.youtube.com/watch?v=r0OQ4U7O2Nc' controls={true} width='100%' />
 </center>
+*/}
 
 ## Roteiro
 

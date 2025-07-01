@@ -34,7 +34,7 @@ jobs:
       - name: 3. Instalar dependências
         run: pnpm install
 
-      - name: 4. Buildar APENAS o aplicativo 'ondg-planos'
+      - name: 4. Build do 'ondg-planos'
         run: pnpm turbo build --filter=ondg-planos
 
       - name: 5. Deploy para o repositório
