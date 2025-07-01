@@ -10,3 +10,12 @@
 
   `npm run deploy`
     Publishes the website to GitHub pages.
+
+## pnpm
+pnpm add -D sass --filter ondg-planos
+- Para instalar como (devDependencies) somente no cdptbr
+
+pnpm add @next/third-parties --filter ondg-planos
+- Para instalar como (dependencies) somente no cdptbr
+
+pnpm add @docusaurus/plugin-google-tag-manager --filter ondg-planos
