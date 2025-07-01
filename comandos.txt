@@ -18,4 +18,11 @@ pnpm add -D sass --filter ondg-planos
 pnpm add @next/third-parties --filter ondg-planos
 - Para instalar como (dependencies) somente no cdptbr
 
+pnpm remove <nome-do-pacote>
+- Excluir pacote do projeto
+
+pnpm why react-dom -r --depth=Infinity
+- Verificar as dependências do pacote no projeto
+
 pnpm add react-player --filter ondg-planos
+pnpm remove react-player --filter ondg-planos
