@@ -39,13 +39,13 @@ jobs:
 
       # --- PASSO DE DIAGNÓSTICO ---
       # Adicione este passo para verificar o que foi gerado
-      - name: 4.5. Verificar o conteúdo da pasta de build
-        run: |
-          echo "Verificando o que existe na raiz do projeto..."
-          ls -l
-          echo "--------------------------------------------------"
-          echo "Verificando o conteúdo da pasta 'apps/ondg-planos/build'..."
-          ls -R ./apps/ondg-planos/build
+      #- name: 4.5. Verificar o conteúdo da pasta de build
+      #  run: |
+      #    echo "Verificando o que existe na raiz do projeto..."
+      #    ls -l
+      #    echo "--------------------------------------------------"
+      #    echo "Verificando o conteúdo da pasta 'apps/ondg-planos/build'..."
+      #    ls -R ./apps/ondg-planos/build
 
       - name: 5. Deploy para o repositório
         uses: peaceiris/actions-gh-pages@v4
