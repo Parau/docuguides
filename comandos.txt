@@ -18,4 +18,4 @@ pnpm add -D sass --filter ondg-planos
 pnpm add @next/third-parties --filter ondg-planos
 - Para instalar como (dependencies) somente no cdptbr
 
-pnpm add @docusaurus/plugin-google-tag-manager --filter ondg-planos
+pnpm add react-player --filter ondg-planos
