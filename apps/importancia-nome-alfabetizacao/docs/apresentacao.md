@@ -4,7 +4,7 @@ title: Apresentação
 sidebar_label: Apresentação
 slug: /
 ---
-import ReactPlayer from 'react-player/youtube'
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
 Que bom ter você aqui! 😊
 
@@ -16,7 +16,10 @@ O projeto também tem como propósito despertar e fortalecer o **gosto pela leit
 
 💡 **Antes de mergulhar neste guia**:
 Se ainda não viu, vale a pena conferir a gravação do último evento realizado pelo projeto. Ele traz inspirações que podem enriquecer sua experiência com este material.
-<center>
-<ReactPlayer url='https://www.youtube.com/watch?v=OvYF2E7XCkg' controls={true} width='100%' />
-</center>
-<br />
+
+<div className="youtube-responsive-container">
+  <LiteYouTubeEmbed
+    id="OvYF2E7XCkg"
+    title="8ª edição do Dia Nacional do Livro Infantil"
+  />
+</div>

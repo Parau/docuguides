@@ -36,12 +36,12 @@ Leitura
  * Personalização do livro infantil O NOME DA GENTE.
 
 ## Preparação 
-* Acessar a página [https://criatividade.digital/blog/dnli/meu-nome-minha-identidade/](https://criatividade.digital/blog/dnli/meu-nome-minha-identidade/) para a leitura do texto MEU NOME, MINHA IDENTIDADE.
+* Acessar a página [https://criatividade.digital/blog/dnli/meu-nome-minha-identidade/](https://blog.criatividade.digital/blog/dnli/meu-nome-minha-identidade/) para a leitura do texto MEU NOME, MINHA IDENTIDADE.
 * Conhecer o formulário de personalização do livro, que vem logo após o texto.
  * Selecionar a lista de emails dos pais da sua turma.
 
 ## Como fazer
-Depois de ler o texto [MEU NOME, MINHA IDENTIDADE](https://criatividade.digital/blog/dnli/meu-nome-minha-identidade/) e experimentar o funcionamento do formulário disponível ao final da página, você estará pronto para iniciar a atividade.
+Depois de ler o texto [MEU NOME, MINHA IDENTIDADE](https://blog.criatividade.digital/blog/dnli/meu-nome-minha-identidade/) e experimentar o funcionamento do formulário disponível ao final da página, você estará pronto para iniciar a atividade.
 
 A proposta é simples: os pais ou responsáveis irão gerar um livro digital personalizado para seus filhos e realizar uma leitura compartilhada em casa. O próprio texto *Meu nome, minha identidade* já apresenta o contexto da atividade e oferece o formulário para criação do livro, o que facilita bastante o processo.
 
@@ -68,7 +68,7 @@ O nome próprio é um elemento muito significativo na vida escolar dos pequenos.
 Pensando nisso, convidamos vocês para uma atividade de leitura em família com o livro digital O NOME DA GENTE, uma história personalizada com o nome do seu filho ou filha. A proposta é simples e afetuosa: gerar o livro com o nome da criança e realizar a leitura juntos em casa, fortalecendo os vínculos familiares e estimulando a aprendizagem de forma lúdica.
 
 Como participar:
-Acesse o texto MEU NOME, MINHA IDENTIDADE (https://criatividade.digital/blog/dnli/meu-nome-minha-identidade/), que apresenta o contexto da proposta.
+Acesse o texto MEU NOME, MINHA IDENTIDADE (https://blog.criatividade.digital/blog/dnli/meu-nome-minha-identidade/), que apresenta o contexto da proposta.
 
 Ao final do texto, você encontrará um formulário para gerar o livro digital personalizado.
 

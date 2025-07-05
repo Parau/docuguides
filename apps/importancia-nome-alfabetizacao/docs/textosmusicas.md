@@ -3,7 +3,7 @@ id: textosmusicas
 title: Textos e músicas
 sidebar_label: Textos e músicas
 ---
-import ReactPlayer from 'react-player/youtube'
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
 
 Aqui apresentamos algumas sugestões de **textos** e **músicas** relacionadas ao nome próprio.
 
@@ -60,9 +60,12 @@ ele que procure um!
 ### Gente tem sobrenome
 A música **Gente tem sobrenome** faz parte do trabalho **Declaração dos Direitos da Criança**. A música acompanha o 3o princípio: DIREITO A UM NOME E A UMA NACIONALIDADE.
 
-<center>
-<ReactPlayer url='https://www.youtube.com/watch?v=tbmADC3w0Ao' controls={true} width='100%' />
-</center>
+<div className="youtube-responsive-container">
+  <LiteYouTubeEmbed
+    id="tbmADC3w0Ao"
+    title="Os Direitos da Criança: Gente Tem Sobrenome (3° Princípio)"
+  />
+</div>
 
 <br />
 
@@ -84,15 +87,22 @@ A música **Gente tem sobrenome** faz parte do trabalho **Declaração dos Direi
 ### Nomes de gente
 MPB4 - Nomes de Gente.
 
-<center>
-<ReactPlayer url='https://www.youtube.com/watch?v=OFif8dwhKEI' controls={true} width='100%' light = {true} />
-</center>
+<div className="youtube-responsive-container">
+  <LiteYouTubeEmbed
+    id="OFif8dwhKEI"
+    title="MPB4 - Nomes De Gente"
+  />
+</div>
 
 ### O meu nome eu vou falar
 Música de Marcelo Serralva.
 
-<center>
-<ReactPlayer url='https://www.youtube.com/watch?v=gqZJI7zo8Ek' controls={true} width='100%' light = {true} />
-</center>
+
+<div className="youtube-responsive-container">
+  <LiteYouTubeEmbed
+    id="gqZJI7zo8Ek"
+    title="O MEU NOME EU VOU FALAR | Música de identidade para a educação infantil"
+  />
+</div>
 
 
