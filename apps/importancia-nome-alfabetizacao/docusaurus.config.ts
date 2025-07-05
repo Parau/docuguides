@@ -5,10 +5,10 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Planos de aula ONDG',
-  tagline: 'Recursos pedagógicos para explorar de forma lúdica e tecnológica o livro O Nome da Gente.',
+  title: 'A Importância do Nome na Alfabetização',
+  tagline: 'Explore como o nome próprio fortalece identidade, afeto e gosto pela leitura.',
   url: 'https://criatividade.digital',
-  baseUrl: '/ondg-planos/',
+  baseUrl: '/importancia-nome-alfabetizacao/',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -19,7 +19,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'CRIATIVIDADE.digital', // Usually your GitHub org/user name.
-  projectName: 'ondg-planos', // Usually your repo name.
+  projectName: 'importancia-nome-alfabetizacao', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -72,9 +72,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/ondg-planos-social-card.jpg',
     navbar: {
-      title: 'Planos de aula ONDG',
+      title: 'Nome na Alfabetização',
       logo: {
-        alt: 'Planos de aula ONDG',
+        alt: 'Nome na Alfabetização',
         src: 'img/curso-icone.png',
       },
       items: [

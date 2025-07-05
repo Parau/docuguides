@@ -1,11 +1,7 @@
 # Nome do seu workflow, aparecerá na aba "Actions" do GitHub
-name: Deploy docusaurus guides to GitHub Pages
+name: Deploy ondg-planos
 
-# Gatilho: Este workflow roda sempre que houver um push na branch 'main'
 on:
-  push:
-    branches:
-      - main
   # Permite que você rode este workflow manualmente também
   workflow_dispatch:
 
@@ -15,7 +11,7 @@ permissions:
 
 jobs:
   # --- JOB PARA PUBLICAR O GUIA ondg-planos 
-  deploy-cdptbr:
+  deploy:
     name: Deploy ondg-planos to 'ondg-planos' repo
     runs-on: ubuntu-latest
     steps:

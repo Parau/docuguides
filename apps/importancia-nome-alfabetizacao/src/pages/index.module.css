@@ -1,0 +1,99 @@
+/**
+ * Estilos para a nova Homepage
+ */
+
+/* Hero Banner */
+.heroBanner {
+  padding: 1rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-color: var(--ifm-color-primary-darker); /* Um tom um pouco mais escuro para destaque */
+}
+
+/* Seção dos Planos de Aula */
+.lessonPlansSection {
+  padding: 4rem 0;
+}
+
+.sectionTitle {
+    margin-bottom: 3rem;
+}
+
+/* Card de Plano de Aula */
+.lessonCard {
+  background-color: var(--ifm-card-background-color);
+  border-radius: var(--ifm-card-border-radius);
+  box-shadow: var(--ifm-global-shadow-lw);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.lessonCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.lessonCardImageWrapper {
+    position: relative;
+}
+
+.lessonCardImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: var(--ifm-card-border-radius);
+  border-top-right-radius: var(--ifm-card-border-radius);
+}
+
+.lessonCardTag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--ifm-color-primary);
+    color: var(--ifm-color-primary-contrast-background);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.lessonCardContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Faz o conteúdo crescer para preencher o espaço */
+}
+
+.lessonCardContent h3 {
+    margin-top: 0;
+}
+
+.lessonCardContent p {
+    flex-grow: 1; /* Faz o parágrafo ocupar o espaço disponível, alinhando os botões na base */
+}
+
+/* Seção "Por que funciona?" */
+.whySection {
+    background-color: var(--ifm-background-surface-color);
+    padding: 4rem 0;
+    border-top: 1px solid var(--ifm-color-emphasis-200);
+    border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.whySection h4 {
+    color: var(--ifm-color-primary);
+}
+
+/* Responsividade */
+@media screen and (max-width: 996px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+  .lessonCard {
+    margin-bottom: 2rem;
+  }
+}
