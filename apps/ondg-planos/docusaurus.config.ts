@@ -61,6 +61,9 @@ const config: Config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+        googleTagManager: {
+          containerId: 'GTM-WQG5CDQL',
+        },
       } satisfies Preset.Options,
     ],
   ],
