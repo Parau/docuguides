@@ -25,6 +25,15 @@ jobs:
       - name: 1. Checkout do código do monorepo
         uses: actions/checkout@v4
 
+      - name: 1.5. Conferir variáveis de ambiente (DEBUG TEMPORÁRIO)
+        run: |
+          echo "FIREBASE_API_KEY=${FIREBASE_API_KEY}"
+          echo "FIREBASE_AUTH_DOMAIN=${FIREBASE_AUTH_DOMAIN}"
+          echo "FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID}"
+          echo "FIREBASE_STORAGE_BUCKET=${FIREBASE_STORAGE_BUCKET}"
+          echo "FIREBASE_MESSAGING_SENDER_ID=${FIREBASE_MESSAGING_SENDER_ID}"
+          echo "FIREBASE_APP_ID=${FIREBASE_APP_ID}"
+
       - name: 2. Setup PNPM (ou npm/yarn) e Node.js
         uses: pnpm/action-setup@v4
         with:
@@ -39,15 +48,6 @@ jobs:
 
       - name: 4. Build do projeto
         run: pnpm turbo build --filter=chatgpt-iel
-
-      - name: 4.6. Conferir variáveis de ambiente (DEBUG TEMPORÁRIO)
-        run: |
-          echo "FIREBASE_API_KEY=${FIREBASE_API_KEY}"
-          echo "FIREBASE_AUTH_DOMAIN=${FIREBASE_AUTH_DOMAIN}"
-          echo "FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID}"
-          echo "FIREBASE_STORAGE_BUCKET=${FIREBASE_STORAGE_BUCKET}"
-          echo "FIREBASE_MESSAGING_SENDER_ID=${FIREBASE_MESSAGING_SENDER_ID}"
-          echo "FIREBASE_APP_ID=${FIREBASE_APP_ID}"
 
       # --- PASSO DE DIAGNÓSTICO ---
       # Adicione este passo para verificar o que foi gerado
