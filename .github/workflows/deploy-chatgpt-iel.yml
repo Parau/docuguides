@@ -14,25 +14,9 @@ jobs:
   deploy:
     name: Deploy to 'ChatGPT-IEL' repo
     runs-on: ubuntu-latest
-    env:
-      DOCUSaurus_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
-      DOCUSaurus_FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
-      DOCUSaurus_FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
-      DOCUSaurus_FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
-      DOCUSaurus_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
-      DOCUSaurus_FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
     steps:
       - name: 1. Checkout do código do monorepo
         uses: actions/checkout@v4
-
-      - name: 1.5. Conferir variáveis de ambiente (DEBUG TEMPORÁRIO)
-        run: |
-          echo "FIREBASE_API_KEY=${FIREBASE_API_KEY}"
-          echo "FIREBASE_AUTH_DOMAIN=${FIREBASE_AUTH_DOMAIN}"
-          echo "FIREBASE_PROJECT_ID=${FIREBASE_PROJECT_ID}"
-          echo "FIREBASE_STORAGE_BUCKET=${FIREBASE_STORAGE_BUCKET}"
-          echo "FIREBASE_MESSAGING_SENDER_ID=${FIREBASE_MESSAGING_SENDER_ID}"
-          echo "FIREBASE_APP_ID=${FIREBASE_APP_ID}"
 
       - name: 2. Setup PNPM (ou npm/yarn) e Node.js
         uses: pnpm/action-setup@v4
@@ -48,16 +32,13 @@ jobs:
 
       - name: 4. Build do projeto
         run: pnpm turbo build --filter=chatgpt-iel
-
-      # --- PASSO DE DIAGNÓSTICO ---
-      # Adicione este passo para verificar o que foi gerado
-      #- name: 4.5. Verificar o conteúdo da pasta de build
-      #  run: |
-      #    echo "Verificando o que existe na raiz do projeto..."
-      #    ls -l
-      #    echo "--------------------------------------------------"
-      #    echo "Verificando o conteúdo da pasta 'apps/ondg-planos/build'..."
-      #    ls -R ./apps/ondg-planos/build
+        env:
+          DOCUSAURUS_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
+          DOCUSAURUS_FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
+          DOCUSAURUS_FIREBASE_PROJECT_ID: ${{ secrets.FIREBASE_PROJECT_ID }}
+          DOCUSAURUS_FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
+          DOCUSAURUS_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
+          DOCUSAURUS_FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
 
       - name: 5. Deploy para o repositório
         uses: peaceiris/actions-gh-pages@v4
