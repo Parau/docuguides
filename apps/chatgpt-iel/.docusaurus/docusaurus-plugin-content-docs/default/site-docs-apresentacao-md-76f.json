@@ -1,0 +1,24 @@
+{
+  "id": "apresentacao",
+  "title": "Apresentação",
+  "description": "Que bom ter você aqui! 😊",
+  "source": "@site/docs/apresentacao.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/ChatGPT-IEL/docs/",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "apresentacao",
+    "title": "Apresentação",
+    "sidebar_label": "Apresentação",
+    "slug": "/"
+  },
+  "sidebar": "ONDG1",
+  "next": {
+    "title": "Importância e história",
+    "permalink": "/ChatGPT-IEL/docs/importanciahistoria"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "emfamilia",
+  "title": "Em família",
+  "description": "Plano de aula - Leitura em família",
+  "source": "@site/docs/emfamilia.md",
+  "sourceDirName": ".",
+  "slug": "/emfamilia",
+  "permalink": "/ChatGPT-IEL/docs/emfamilia",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "emfamilia",
+    "title": "Em família",
+    "sidebar_label": "Leitura em família"
+  },
+  "sidebar": "ONDG1",
+  "previous": {
+    "title": "Laboratório de informática",
+    "permalink": "/ChatGPT-IEL/docs/laboratorio"
+  }
+}

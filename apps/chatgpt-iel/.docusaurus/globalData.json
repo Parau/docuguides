@@ -1,0 +1,108 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/ChatGPT-IEL/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/ChatGPT-IEL/docs",
+          "mainDocId": "apresentacao",
+          "docs": [
+            {
+              "id": "apresentacao",
+              "path": "/ChatGPT-IEL/docs/",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "atividade-envio-familia",
+              "path": "/ChatGPT-IEL/docs/atividade-envio-familia"
+            },
+            {
+              "id": "atividade-enviolink",
+              "path": "/ChatGPT-IEL/docs/atividade-enviolink"
+            },
+            {
+              "id": "bancoatividades",
+              "path": "/ChatGPT-IEL/docs/bancoatividades",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "compraemlote",
+              "path": "/ChatGPT-IEL/docs/compraemlote"
+            },
+            {
+              "id": "conquistanomeproprio",
+              "path": "/ChatGPT-IEL/docs/conquistanomeproprio",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "contacao",
+              "path": "/ChatGPT-IEL/docs/contacao",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "descontoworkshop",
+              "path": "/ChatGPT-IEL/docs/descontoworkshop"
+            },
+            {
+              "id": "emfamilia",
+              "path": "/ChatGPT-IEL/docs/emfamilia",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "ganhandobadge",
+              "path": "/ChatGPT-IEL/docs/ganhandobadge"
+            },
+            {
+              "id": "importanciahistoria",
+              "path": "/ChatGPT-IEL/docs/importanciahistoria",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "laboratorio",
+              "path": "/ChatGPT-IEL/docs/laboratorio",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "palavrasfavoritas",
+              "path": "/ChatGPT-IEL/docs/palavrasfavoritas",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "sobreolivro",
+              "path": "/ChatGPT-IEL/docs/sobreolivro",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "textosmusicas",
+              "path": "/ChatGPT-IEL/docs/textosmusicas",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "versaodigital",
+              "path": "/ChatGPT-IEL/docs/versaodigital",
+              "sidebar": "ONDG1"
+            },
+            {
+              "id": "versaoimpressa",
+              "path": "/ChatGPT-IEL/docs/versaoimpressa",
+              "sidebar": "ONDG1"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "ONDG1": {
+              "link": {
+                "path": "/ChatGPT-IEL/docs/",
+                "label": "apresentacao"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

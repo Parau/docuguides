@@ -1,0 +1,18 @@
+{
+  "id": "compraemlote",
+  "title": "Compra compartilhada",
+  "description": "Para ter acesso a um desconto especial na versão impressa do O NOME DA GENTE oferecemos, somente aos participantes do workshop, a possibilidade de fazer uma compra conjunta.",
+  "source": "@site/docs/compraemlote.md",
+  "sourceDirName": ".",
+  "slug": "/compraemlote",
+  "permalink": "/ChatGPT-IEL/docs/compraemlote",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "compraemlote",
+    "title": "Compra compartilhada",
+    "sidebar_label": "Bônus 01 - Desconto para compra compartilhada"
+  }
+}

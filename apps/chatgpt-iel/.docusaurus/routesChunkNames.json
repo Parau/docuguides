@@ -1,0 +1,154 @@
+{
+  "/ChatGPT-IEL/__docusaurus/debug-2b3": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docusaurus-debugb-38-14e"
+    }
+  },
+  "/ChatGPT-IEL/__docusaurus/debug/config-a51": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docusaurus-debugb-38-14e"
+    }
+  },
+  "/ChatGPT-IEL/__docusaurus/debug/content-e64": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docusaurus-debugb-38-14e"
+    },
+    "__props": "__props---chat-gpt-iel-docusaurus-debug-content-392-45c"
+  },
+  "/ChatGPT-IEL/__docusaurus/debug/globalData-846": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docusaurus-debugb-38-14e"
+    }
+  },
+  "/ChatGPT-IEL/__docusaurus/debug/metadata-47c": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docusaurus-debugb-38-14e"
+    }
+  },
+  "/ChatGPT-IEL/__docusaurus/debug/registry-9e9": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docusaurus-debugb-38-14e"
+    }
+  },
+  "/ChatGPT-IEL/__docusaurus/debug/routes-cf8": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docusaurus-debugb-38-14e"
+    }
+  },
+  "/ChatGPT-IEL/markdown-page-4d5": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-markdown-pagea-74-25c"
+    },
+    "content": "content---chat-gpt-iel-markdown-page-393-84c"
+  },
+  "/ChatGPT-IEL/nologin-fd6": {
+    "__comp": "__comp---site-src-pages-nologin-tsxd-2-a-797",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-markdown-pagea-74-25c"
+    },
+    "config": "config---chat-gpt-iel-nologin-5-e-9-340"
+  },
+  "/ChatGPT-IEL/nologincontent-de9": {
+    "__comp": "__comp---site-src-pages-nologincontent-tsxf-78-072",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-markdown-pagea-74-25c"
+    },
+    "config": "config---chat-gpt-iel-nologin-5-e-9-340"
+  },
+  "/ChatGPT-IEL/docs-081": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-docsaba-3a3"
+    }
+  },
+  "/ChatGPT-IEL/docs-5bd": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---chat-gpt-iel-docs-80-a-b07"
+  },
+  "/ChatGPT-IEL/docs-8da": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
+  },
+  "/ChatGPT-IEL/docs/-50d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-76-f-930"
+  },
+  "/ChatGPT-IEL/docs/atividade-envio-familia-505": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-atividade-envio-familia-029-d03"
+  },
+  "/ChatGPT-IEL/docs/atividade-enviolink-671": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-atividade-enviolink-1-b-8-b0e"
+  },
+  "/ChatGPT-IEL/docs/bancoatividades-739": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-bancoatividadesc-04-ed0"
+  },
+  "/ChatGPT-IEL/docs/compraemlote-66d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-compraemlote-47-e-700"
+  },
+  "/ChatGPT-IEL/docs/conquistanomeproprio-7a6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-conquistanomepropriofe-7-387"
+  },
+  "/ChatGPT-IEL/docs/contacao-a3e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-contacaocc-3-5ff"
+  },
+  "/ChatGPT-IEL/docs/descontoworkshop-6a7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-descontoworkshop-7-c-0-365"
+  },
+  "/ChatGPT-IEL/docs/emfamilia-fe3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-emfamilia-01-d-9d7"
+  },
+  "/ChatGPT-IEL/docs/ganhandobadge-d0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-ganhandobadgec-4-b-84e"
+  },
+  "/ChatGPT-IEL/docs/importanciahistoria-7bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-importanciahistoria-00-c-02a"
+  },
+  "/ChatGPT-IEL/docs/laboratorio-942": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-laboratoriod-40-4a5"
+  },
+  "/ChatGPT-IEL/docs/palavrasfavoritas-0f0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-palavrasfavoritas-753-b52"
+  },
+  "/ChatGPT-IEL/docs/sobreolivro-159": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-sobreolivro-921-925"
+  },
+  "/ChatGPT-IEL/docs/textosmusicas-7bb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-textosmusicas-7-ff-08b"
+  },
+  "/ChatGPT-IEL/docs/versaodigital-a06": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-versaodigital-43-e-088"
+  },
+  "/ChatGPT-IEL/docs/versaoimpressa-6d1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---chat-gpt-iel-docs-versaoimpressa-17-a-35a"
+  },
+  "/ChatGPT-IEL/-2ea": {
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
+    "__context": {
+      "plugin": "plugin---chat-gpt-iel-markdown-pagea-74-25c"
+    },
+    "config": "config---chat-gpt-iel-nologin-5-e-9-340"
+  }
+}

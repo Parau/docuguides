@@ -1,0 +1,27 @@
+{
+  "id": "versaodigital",
+  "title": "Versao digital",
+  "description": "Notebook apresentando o livro digital O NOME DA GENTE",
+  "source": "@site/docs/geracaoindividual.mdx",
+  "sourceDirName": ".",
+  "slug": "/versaodigital",
+  "permalink": "/ChatGPT-IEL/docs/versaodigital",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "versaodigital",
+    "title": "Versao digital",
+    "sidebar_label": "Versao digital"
+  },
+  "sidebar": "ONDG1",
+  "previous": {
+    "title": "Versão impressa",
+    "permalink": "/ChatGPT-IEL/docs/versaoimpressa"
+  },
+  "next": {
+    "title": "Contação de história",
+    "permalink": "/ChatGPT-IEL/docs/contacao"
+  }
+}

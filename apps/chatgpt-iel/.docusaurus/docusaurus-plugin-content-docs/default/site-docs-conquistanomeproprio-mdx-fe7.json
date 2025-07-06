@@ -1,0 +1,27 @@
+{
+  "id": "conquistanomeproprio",
+  "title": "Conquista do nome",
+  "description": "O nome próprio",
+  "source": "@site/docs/conquistanomeproprio.mdx",
+  "sourceDirName": ".",
+  "slug": "/conquistanomeproprio",
+  "permalink": "/ChatGPT-IEL/docs/conquistanomeproprio",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "conquistanomeproprio",
+    "title": "Conquista do nome",
+    "sidebar_label": "A conquista do nome próprio"
+  },
+  "sidebar": "ONDG1",
+  "previous": {
+    "title": "Importância e história",
+    "permalink": "/ChatGPT-IEL/docs/importanciahistoria"
+  },
+  "next": {
+    "title": "Textos e músicas",
+    "permalink": "/ChatGPT-IEL/docs/textosmusicas"
+  }
+}

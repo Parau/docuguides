@@ -1,0 +1,32 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0270ae;
+  --ifm-color-primary-dark: #02659d;
+  --ifm-color-primary-darker: #025f94;
+  --ifm-color-primary-darkest: #014e7a;
+  --ifm-color-primary-light: #027bbf;
+  --ifm-color-primary-lighter: #0281c8;
+  --ifm-color-primary-lightest: #0392e2;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #62cafe;
+  --ifm-color-primary-dark: #3fbefe;
+  --ifm-color-primary-darker: #2eb8fe;
+  --ifm-color-primary-darkest: #02a4f5;
+  --ifm-color-primary-light: #85d6fe;
+  --ifm-color-primary-lighter: #96dcfe;
+  --ifm-color-primary-lightest: #cbedff;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+@import './react-lite-youtube-embed.css';

@@ -12,6 +12,12 @@
     Publishes the website to GitHub pages.
 
 ## pnpm
+pnpm dev:atual
+- Olhar o package.json para ver qual o projeto atualmente configurado
+
+pnpm install
+- Depois que faz a cópia para iniciar um novo projeto.
+
 pnpm add -D sass --filter ondg-planos
 - Para instalar como (devDependencies) somente no cdptbr
 
@@ -26,3 +32,8 @@ pnpm why react-dom -r --depth=Infinity
 
 pnpm add react-lite-youtube-embed --filter ondg-planos
 pnpm remove react-player --filter ondg-planos
+
+
+
+
+pnpm add docusaurus-plugin-dotenv --filter chatgpt-iel

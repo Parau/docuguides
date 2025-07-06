@@ -1,0 +1,27 @@
+{
+  "id": "importanciahistoria",
+  "title": "Importância e história",
+  "description": "Antes mesmo de compreender como as letras se organizam para formar palavras, a criança já reconhece algo muito especial a relevância dos nomes próprios na aprendizagem e a trajetória da alfabetização, convidando-nos a pensar em práticas mais humanas, contextualizadas e significativas.",
+  "source": "@site/docs/importanciahistoria.mdx",
+  "sourceDirName": ".",
+  "slug": "/importanciahistoria",
+  "permalink": "/ChatGPT-IEL/docs/importanciahistoria",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "importanciahistoria",
+    "title": "Importância e história",
+    "sidebar_label": "Importância e história"
+  },
+  "sidebar": "ONDG1",
+  "previous": {
+    "title": "Apresentação",
+    "permalink": "/ChatGPT-IEL/docs/"
+  },
+  "next": {
+    "title": "A conquista do nome próprio",
+    "permalink": "/ChatGPT-IEL/docs/conquistanomeproprio"
+  }
+}

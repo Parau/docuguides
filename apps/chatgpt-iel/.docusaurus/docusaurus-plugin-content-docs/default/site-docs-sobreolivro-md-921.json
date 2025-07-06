@@ -1,0 +1,27 @@
+{
+  "id": "sobreolivro",
+  "title": "Apresentação",
+  "description": "Sobre o livro",
+  "source": "@site/docs/sobreolivro.md",
+  "sourceDirName": ".",
+  "slug": "/sobreolivro",
+  "permalink": "/ChatGPT-IEL/docs/sobreolivro",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "sobreolivro",
+    "title": "Apresentação",
+    "sidebar_label": "Apresentação"
+  },
+  "sidebar": "ONDG1",
+  "previous": {
+    "title": "Palavras favoritas",
+    "permalink": "/ChatGPT-IEL/docs/palavrasfavoritas"
+  },
+  "next": {
+    "title": "Versão impressa",
+    "permalink": "/ChatGPT-IEL/docs/versaoimpressa"
+  }
+}

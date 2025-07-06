@@ -1,0 +1,18 @@
+{
+  "id": "ganhandobadge",
+  "title": "Badge de participação",
+  "description": "Para que você ganhe a sua medalha (badge) de participação no workshop A IMPORTÂNCIA DO NOME NA ALFABETIZAÇÃO",
+  "source": "@site/docs/ganhandobadge.md",
+  "sourceDirName": ".",
+  "slug": "/ganhandobadge",
+  "permalink": "/ChatGPT-IEL/docs/ganhandobadge",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ganhandobadge",
+    "title": "Badge de participação",
+    "sidebar_label": "Como ganhar o badge de participação"
+  }
+}

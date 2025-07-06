@@ -1,0 +1,27 @@
+{
+  "id": "contacao",
+  "title": "Contação de História",
+  "description": "plano de aula usando o livro digital o nome da gente na biblioteca com acesso à computadores e Internet",
+  "source": "@site/docs/contacao.md",
+  "sourceDirName": ".",
+  "slug": "/contacao",
+  "permalink": "/ChatGPT-IEL/docs/contacao",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "contacao",
+    "title": "Contação de História",
+    "sidebar_label": "Contação de história"
+  },
+  "sidebar": "ONDG1",
+  "previous": {
+    "title": "Versao digital",
+    "permalink": "/ChatGPT-IEL/docs/versaodigital"
+  },
+  "next": {
+    "title": "Laboratório de informática",
+    "permalink": "/ChatGPT-IEL/docs/laboratorio"
+  }
+}
