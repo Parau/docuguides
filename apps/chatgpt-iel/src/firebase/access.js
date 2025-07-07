@@ -6,4 +6,4 @@ export const ACCESS_STATUS = {
 
 export const PROTECTED_PATHS = ["/docs", "/docs/"];
 
-export const BOOKID = "1"; //Por enquanto estou usando o ID do dos planos de aula
+export const BOOKID = "0"; //Por enquanto estou usando o ID do dos planos de aula
