@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/ChatGPT-IEL/__docusaurus/debug',
-    component: ComponentCreator('/ChatGPT-IEL/__docusaurus/debug', '2b3'),
-    exact: true
-  },
-  {
-    path: '/ChatGPT-IEL/__docusaurus/debug/config',
-    component: ComponentCreator('/ChatGPT-IEL/__docusaurus/debug/config', 'a51'),
-    exact: true
-  },
-  {
-    path: '/ChatGPT-IEL/__docusaurus/debug/content',
-    component: ComponentCreator('/ChatGPT-IEL/__docusaurus/debug/content', 'e64'),
-    exact: true
-  },
-  {
-    path: '/ChatGPT-IEL/__docusaurus/debug/globalData',
-    component: ComponentCreator('/ChatGPT-IEL/__docusaurus/debug/globalData', '846'),
-    exact: true
-  },
-  {
-    path: '/ChatGPT-IEL/__docusaurus/debug/metadata',
-    component: ComponentCreator('/ChatGPT-IEL/__docusaurus/debug/metadata', '47c'),
-    exact: true
-  },
-  {
-    path: '/ChatGPT-IEL/__docusaurus/debug/registry',
-    component: ComponentCreator('/ChatGPT-IEL/__docusaurus/debug/registry', '9e9'),
-    exact: true
-  },
-  {
-    path: '/ChatGPT-IEL/__docusaurus/debug/routes',
-    component: ComponentCreator('/ChatGPT-IEL/__docusaurus/debug/routes', 'cf8'),
-    exact: true
-  },
-  {
     path: '/ChatGPT-IEL/markdown-page',
     component: ComponentCreator('/ChatGPT-IEL/markdown-page', '4d5'),
     exact: true

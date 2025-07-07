@@ -4,7 +4,7 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
-    "dev:atual": "turbo dev --filter=chatgpt-iel",
+    "dev:atual": "turbo dev --filter=importancia-nome-alfabetizacao",
     "lint": "turbo run lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "check-types": "turbo run check-types"

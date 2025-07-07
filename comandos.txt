@@ -35,5 +35,5 @@ pnpm remove react-player --filter ondg-planos
 
 
 
-
+turbo run build --filter chatgpt-iel
 pnpm add docusaurus-plugin-dotenv --filter chatgpt-iel
