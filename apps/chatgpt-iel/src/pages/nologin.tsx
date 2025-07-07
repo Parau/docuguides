@@ -30,11 +30,11 @@ export default function NoLogin() {
           <p>
             Para continuar, por favor, faça o login e verifique se seu acesso foi liberado.
           </p>
-          <Link
+          <a
             className="button button--primary button--lg"
-            to={loginUrl}>
+            href={loginUrl}>
             Fazer Login
-          </Link>
+          </a>
         </div>
       </main>
     </Layout>

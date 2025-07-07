@@ -104,11 +104,5 @@
       ],
       "breadcrumbs": true
     }
-  },
-  "docusaurus-plugin-google-tag-manager": {
-    "default": {
-      "containerId": "GTM-WQG5CDQL",
-      "id": "default"
-    }
   }
 }

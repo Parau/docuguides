@@ -34,6 +34,9 @@ pnpm add react-lite-youtube-embed --filter ondg-planos
 pnpm remove react-player --filter ondg-planos
 
 
+## auxiliares do dia a dia
+importancia-nome-alfabetizacao
+chatgpt-iel
 
 turbo run build --filter chatgpt-iel
 pnpm add docusaurus-plugin-dotenv --filter chatgpt-iel
