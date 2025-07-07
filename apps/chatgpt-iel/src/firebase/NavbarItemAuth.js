@@ -36,9 +36,9 @@ export default function NavbarItemAuth() {
       </a>
     </>
   ) : (
-    <Link to={`https://criatividade.digital/login?redirect=${from}`} className="navbar__item navbar__link">
+    <a href={`https://criatividade.digital/login?redirect=${from}`} className="navbar__item navbar__link">
       Login
-    </Link>
+    </a>
   );
 }
 
