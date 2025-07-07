@@ -31,7 +31,6 @@ jobs:
         run: pnpm install
 
       - name: 4. Build do projeto
-        run: pnpm turbo build --filter=importancia-nome-alfabetizacao
         env:
           DOCUSAURUS_FIREBASE_API_KEY: ${{ secrets.FIREBASE_API_KEY }}
           DOCUSAURUS_FIREBASE_AUTH_DOMAIN: ${{ secrets.FIREBASE_AUTH_DOMAIN }}
@@ -39,6 +38,11 @@ jobs:
           DOCUSAURUS_FIREBASE_STORAGE_BUCKET: ${{ secrets.FIREBASE_STORAGE_BUCKET }}
           DOCUSAURUS_FIREBASE_MESSAGING_SENDER_ID: ${{ secrets.FIREBASE_MESSAGING_SENDER_ID }}
           DOCUSAURUS_FIREBASE_APP_ID: ${{ secrets.FIREBASE_APP_ID }}
+        run: |
+          echo "Project ID: $DOCUSAURUS_FIREBASE_PROJECT_ID"
+
+          pnpm turbo build --filter=importancia-nome-alfabetizacao
+
       # --- PASSO DE DIAGNÓSTICO ---
       # Adicione este passo para verificar o que foi gerado
       #- name: 4.5. Verificar o conteúdo da pasta de build
