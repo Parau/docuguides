@@ -5,14 +5,18 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   ONDG1: [
     {
-      type: 'category',
+      type: 'doc',
       label: 'INTRODUÇÃO',
-      items: ['apresentacao'],
+      id: 'apresentacao',
     },
     {
       type: 'category',
-      label: 'O NOME PRÓPRIO',
-      items: ['importanciahistoria', 'conquistanomeproprio', 
+      label: 'CURIOSO',
+      link: {
+        type: 'doc',
+        id: 'curioso',
+      },
+      items: ['login/uso_pessoal', 'conquistanomeproprio', 
               'textosmusicas',  'bancoatividades', 'palavrasfavoritas'],
     },
     {
@@ -36,6 +40,29 @@ const sidebars: SidebarsConfig = {
       label: 'BÔNUS',
       items: ['ONDG01/compraemlote', 'ONDG01/descontoworkshop'],
     }*/
+  ],
+    ONDG2: [
+    {
+      type: 'category',
+      label: 'Novo',
+      items: [ 
+        {
+          type: 'doc',
+          label: 'Sobre o Livro', // Você pode customizar o label aqui
+          id: 'apresentacao2',      // Este é o ID do seu arquivo .md (ex: sobreolivro.md)
+        },
+        {
+          type: 'ref',
+          label: 'Sobre o Livro', // Você pode customizar o label aqui
+          id: 'sobreolivro',      // Este é o ID do seu arquivo .md (ex: sobreolivro.md)
+        },
+      ],
+    },
+    {
+      type: 'ref',
+      label: 'Sobre o Livro',
+      id: 'versaoimpressa',
+    },
   ]
 };
 
