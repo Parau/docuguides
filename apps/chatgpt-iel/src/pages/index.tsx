@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -37,31 +37,37 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   const markmapSvgRef = useRef<SVGSVGElement>(null);
   const markmapInstanceRef = useRef<any>(null);
-
-  // Your markdown content for the mindmap
-  const mindmapMarkdown = `
-# Guia de Alfabetização
-## Nome próprio
-- Identidade
-- Pertencimento
-## Leitura
-- Prazer
-- Experiência
-`;
+  const [mindmapMarkdown, setMindmapMarkdown] = useState<string>('');
 
   useEffect(() => {
-    // Dynamically import markmap libraries to avoid SSR issues
+    fetch('./indice/indice.txt')
+      .then(res => res.text())
+      .then(setMindmapMarkdown);
+  }, []);
+
+  useEffect(() => {
+    if (!mindmapMarkdown) return;
     let mm: any;
     let cleanup = () => {};
+    let resizeHandler = () => {};
+
     import('markmap-view').then(({ Markmap }) => {
       import('markmap-lib').then(({ Transformer }) => {
         if (!markmapSvgRef.current) return;
         const transformer = new Transformer();
         mm = Markmap.create(markmapSvgRef.current);
         markmapInstanceRef.current = mm;
-        const { root } = transformer.transform(mindmapMarkdown);
-        mm.setData(root).then(() => mm.fit());
+        const { root, frontmatter } = transformer.transform(mindmapMarkdown);
+        mm.setData(root, frontmatter?.markmap).then(() => mm.fit());
+
+        // Add resize handler
+        resizeHandler = () => {
+          mm?.fit?.();
+        };
+        window.addEventListener('resize', resizeHandler);
+
         cleanup = () => {
+          window.removeEventListener('resize', resizeHandler);
           mm?.destroy?.();
         };
       });
@@ -69,9 +75,8 @@ export default function Home() {
     return () => {
       cleanup();
     };
-    // Only run once on mount
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  }, [mindmapMarkdown]);
 
   return (
     <Layout
@@ -100,7 +105,7 @@ export default function Home() {
           <div style={{ width: '100%', minHeight: 400, margin: '2rem 0' }}>
             <svg
               ref={markmapSvgRef}
-              style={{ width: '100%', minHeight: 400 }}
+              style={{ width: '90%', minHeight: 400 }}
             />
           </div>
         </div>
@@ -108,4 +113,5 @@ export default function Home() {
     </Layout>
   );
 }
+
 

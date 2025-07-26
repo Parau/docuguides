@@ -43,7 +43,7 @@ Gere o guia passo a passo compatível com a versão Free, Plus e Pro. Use como r
 
 Criar uma conta e fazer o login é um processo simples e rápido. Siga as instruções a seguir para começar a explorar todo o potencial desta ferramenta.
 
-### **Criação de Conta (*Sign Up*)**
+### Criação de Conta (*Sign Up*)
 Para começar a usar o ChatGPT, o <Highlight>primeiro passo</Highlight> é criar a sua conta pessoal. É através dela que você poderá salvar seu histórico de conversas e acessar os recursos disponíveis no seu plano.
 1. **Acesse o site oficial:** Abra o seu navegador de internet e visite a página do ChatGPT em [https://chat.openai.com](https://chat.openai.com).
 2. **Inicie o cadastro:** Na página inicial, você verá duas opções principais. Clique no botão **Cadastrar** (*Sign up*).
@@ -58,7 +58,7 @@ Pronto! <Highlight delay='1000'>Sua conta foi criada com sucesso</Highlight>. Ag
 
 ---
 
-### **Acesso à Conta (*Log in*)**
+### Acesso à Conta (*Log in*)
 Uma vez que sua conta já foi criada, <Highlight>acessar o ChatGPT</Highlight> é muito fácil.
 
 1. **Acesse o site oficial:** Novamente, visite a página do ChatGPT em [https://chat.openai.com](https://chat.openai.com).
@@ -70,7 +70,7 @@ Uma vez que sua conta já foi criada, <Highlight>acessar o ChatGPT</Highlight> �
 
 ---
 
-### **Recomendações**
+### Recomendações
 Para garantir uma experiência tranquila e segura, independentemente da versão que você utiliza (Free, Plus ou Pro), siga estas <Highlight delay='1000'>dicas</Highlight>:
 
 * **Segurança da Senha:** Caso tenha optado pelo cadastro via e-mail, crie uma senha forte e única, combinando letras maiúsculas, minúsculas, números e símbolos. Não a compartilhe com ninguém.

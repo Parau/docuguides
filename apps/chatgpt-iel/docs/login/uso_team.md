@@ -31,17 +31,17 @@ Gere o guia passo a passo compatível com a versão Team. O guia deve atender ao
 
 Este passo a passo foi criado para te ajudar a entrar no ChatGPT Team. Vamos começar?
 
-## **Criando sua Conta e Aceitando o Convite**
+## Criando sua Conta e Aceitando o Convite
 O <Highlight>primeiro passo</Highlight> é aceitar o convite enviado para o seu e-mail. O processo pode variar um pouco dependendo se você já possui uma conta no ChatGPT. Veja como proceder em cada situação:
 
-### **Cenário 1: O e-mail do convite é o mesmo da sua conta pessoal do ChatGPT**
+### Cenário 1: O e-mail do convite é o mesmo da sua conta pessoal do ChatGPT
 Se você já utiliza o ChatGPT com o mesmo e-mail do convite, o processo é muito simples.
 1. **Abra o seu e-mail:** Procure por um e-mail com o assunto "Você foi convidado para participar de um workspace no ChatGPT Team" (*You're invited to join a workspace on ChatGPT Team*).
 2. **Aceite o convite:** Dentro do e-mail, clique no botão **Juntar-se ao Workspace** (*Join Workspace*).
 3. **Faça o login:** Você será direcionado para a página de login do ChatGPT. Insira suas credenciais já existentes (e-mail e senha).
 4. **Unificação das contas:** Ao fazer o login, o sistema reconhecerá suas duas contas (pessoal e Team). Uma mensagem aparecerá oferecendo a opção de alternar entre os workspaces. A partir de agora, ao clicar no nome do workspace no canto superior esquerdo da tela, você poderá facilmente navegar entre sua conta pessoal e a conta do time.
 
-### **Cenário 2: O e-mail do convite é diferente da sua conta pessoal do ChatGPT (ou você não tem uma conta)**
+### Cenário 2: O e-mail do convite é diferente da sua conta pessoal do ChatGPT (ou você não tem uma conta)
 Se você recebeu o convite em um e-mail que ainda não está associado a uma conta do ChatGPT, siga estes passos:
 
 1. **Encontre o convite:** Abra a sua caixa de entrada e localize o e-mail de convite do ChatGPT Team.
@@ -54,17 +54,17 @@ Se você recebeu o convite em um e-mail que ainda não está associado a uma con
 
 ---
 
-## **Como Fazer Login no seu Dia a Dia**
+## Como Fazer Login no seu Dia a Dia
 Depois que a sua conta estiver configurada, acessar o ChatGPT Team é muito fácil. Você tem <Highlight delay='1000'>duas maneiras</Highlight> principais de fazer isso:
 
-### **Login com E-mail e Senha**
+### Login com E-mail e Senha
 Esta é a forma padrão de acesso.
 1. **Acesse a página de login:** Vá para [chat.openai.com](https://chat.openai.com).
 2. **Clique para entrar:** Selecione o botão **Entrar** (*Log in*).
 3. **Informe seus dados:** Digite o seu endereço de e-mail e a senha que você cadastrou.
 4. **Acesse o workspace:** Após o login, se você tiver tanto uma conta pessoal quanto uma Team, certifique-se de que o nome do workspace do seu time está selecionado no canto superior esquerdo da tela.
 
-### **Login com SSO (Login Único)**
+### Login com SSO (Login Único)
 Se a sua organização utiliza um sistema de login único (como Google Workspace, Microsoft Azure AD, etc.), o acesso é ainda mais prático.
 
 1. **Vá para a página de login:** Acesse [chat.openai.com](https://chat.openai.com).
@@ -75,7 +75,7 @@ Se a sua organização utiliza um sistema de login único (como Google Workspace
 
 ---
 
-## **Recomendações de Segurança**
+## Recomendações de Segurança
 Para garantir que sua conta e suas informações estejam sempre protegidas, siga estas <Highlight delay='1000'>dicas</Highlight> importantes:
 
 * **Ative a Autenticação Multifatorial (MFA):** Esta é uma das formas mais eficazes de proteger sua conta. Ao ativá-la, além da sua senha, será solicitado um código de verificação (geralmente de um aplicativo no seu celular) sempre que fizer login em um novo dispositivo.
