@@ -108,11 +108,4 @@ export default function Home() {
     </Layout>
   );
 }
-/*
-markmap.js.org
-https://gojs.net/latest/
-https://github.com/clientIO/joint
 
-Guardar este link, tem um interessante de fisica, matematia e interacoes
-https://medevel.com/javascript-mindmapping-library-1900/
-*/
