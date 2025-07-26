@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import clsx from 'clsx';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
@@ -35,6 +35,44 @@ function HomepageHeader() {
  */
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
+  const markmapSvgRef = useRef<SVGSVGElement>(null);
+  const markmapInstanceRef = useRef<any>(null);
+
+  // Your markdown content for the mindmap
+  const mindmapMarkdown = `
+# Guia de Alfabetização
+## Nome próprio
+- Identidade
+- Pertencimento
+## Leitura
+- Prazer
+- Experiência
+`;
+
+  useEffect(() => {
+    // Dynamically import markmap libraries to avoid SSR issues
+    let mm: any;
+    let cleanup = () => {};
+    import('markmap-view').then(({ Markmap }) => {
+      import('markmap-lib').then(({ Transformer }) => {
+        if (!markmapSvgRef.current) return;
+        const transformer = new Transformer();
+        mm = Markmap.create(markmapSvgRef.current);
+        markmapInstanceRef.current = mm;
+        const { root } = transformer.transform(mindmapMarkdown);
+        mm.setData(root).then(() => mm.fit());
+        cleanup = () => {
+          mm?.destroy?.();
+        };
+      });
+    });
+    return () => {
+      cleanup();
+    };
+    // Only run once on mount
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   return (
     <Layout
       title="A Importância do Nome na Alfabetização"
@@ -59,8 +97,22 @@ export default function Home() {
             </p>
           </section>
 
+          <div style={{ width: '100%', minHeight: 400, margin: '2rem 0' }}>
+            <svg
+              ref={markmapSvgRef}
+              style={{ width: '100%', minHeight: 400 }}
+            />
+          </div>
         </div>
       </main>
     </Layout>
   );
 }
+/*
+markmap.js.org
+https://gojs.net/latest/
+https://github.com/clientIO/joint
+
+Guardar este link, tem um interessante de fisica, matematia e interacoes
+https://medevel.com/javascript-mindmapping-library-1900/
+*/

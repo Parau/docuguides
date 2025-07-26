@@ -1,0 +1,221 @@
+import { LitElement, css, html } from 'lit'
+import { customElement, property, state } from 'lit/decorators.js'
+
+/**
+ * A highlight component with animated reveal effect.
+ * 
+ * @slot - Content to be highlighted
+ * @fires highlight-animation-complete - Dispatched when animation completes
+ */
+@customElement('cd-highlight')
+export class CdHighlight extends LitElement {
+  /**
+   * Highlight background color (default: yellow)
+   */
+  @property({ type: String })
+  color = 'yellow'
+
+  /**
+   * Animation delay in milliseconds (default: 0)
+   */
+  @property({ type: Number })
+  delay = 0
+
+  @state()
+  private _isVisible = false
+
+  @state()
+  private _isAnimating = false
+
+  @state()
+  private _canAnimate = false
+
+  private _intersectionObserver?: IntersectionObserver
+  private _animationTimeout?: number
+  private _textContent = ''
+  private _animationDuration = 500 // Base duration in ms
+
+  static _highlightQueue: CdHighlight[] = []
+  static _isProcessingQueue = false
+
+  connectedCallback() {
+    super.connectedCallback()
+    this._setupIntersectionObserver()
+    this._addToQueue()
+    this._setupEventListeners()
+  }
+
+  disconnectedCallback() {
+    super.disconnectedCallback()
+    this._intersectionObserver?.disconnect()
+    this._removeFromQueue()
+    if (this._animationTimeout) {
+      clearTimeout(this._animationTimeout)
+    }
+  }
+
+  updated(changedProperties: Map<string, any>) {
+    super.updated(changedProperties)
+    if (changedProperties.has('color')) {
+      this.style.setProperty('--highlight-color', this.color)
+    }
+  }
+
+  private _setupIntersectionObserver() {
+    this._intersectionObserver = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting && !this._isVisible) {
+            this._isVisible = true
+            this._tryStartAnimation()
+          }
+        })
+      },
+      { threshold: 0.1 }
+    )
+    this._intersectionObserver.observe(this)
+  }
+
+  private _setupEventListeners() {
+    document.addEventListener('highlight-animation-complete', this._onOtherAnimationComplete.bind(this))
+  }
+
+  private _addToQueue() {
+    CdHighlight._highlightQueue.push(this)
+    this._sortQueue()
+  }
+
+  private _removeFromQueue() {
+    const index = CdHighlight._highlightQueue.indexOf(this)
+    if (index > -1) {
+      CdHighlight._highlightQueue.splice(index, 1)
+    }
+  }
+
+  private _sortQueue() {
+    CdHighlight._highlightQueue.sort((a, b) => {
+      const aPos = a.compareDocumentPosition(b)
+      return aPos & Node.DOCUMENT_POSITION_FOLLOWING ? -1 : 1
+    })
+  }
+
+  private _tryStartAnimation() {
+    if (!this._isVisible || this._isAnimating) return
+
+    const myIndex = CdHighlight._highlightQueue.indexOf(this)
+    if (myIndex === 0 || !CdHighlight._isProcessingQueue) {
+      this._canAnimate = true
+      this._startAnimation()
+    }
+  }
+
+  private _onOtherAnimationComplete(event: Event) {
+    const completedElement = event.target as CdHighlight
+    if (completedElement === this) return
+
+    const completedIndex = CdHighlight._highlightQueue.indexOf(completedElement)
+    const myIndex = CdHighlight._highlightQueue.indexOf(this)
+
+    if (completedIndex === myIndex - 1 && this._isVisible && !this._isAnimating) {
+      this._canAnimate = true
+      this._startAnimation()
+    }
+  }
+
+  private _startAnimation() {
+    if (!this._canAnimate || this._isAnimating) return
+
+    CdHighlight._isProcessingQueue = true
+    this._isAnimating = true
+
+    // Calculate duration based on text length
+    this._textContent = this.textContent?.trim() || ''
+    const baseTime = 2000
+    const additionalTime = Math.max(0, (this._textContent.length - 20) * 50)
+    this._animationDuration = Math.min(baseTime + additionalTime, 6000)
+
+    this._animationTimeout = window.setTimeout(() => {
+      this.classList.add('animate')
+      
+      // Complete animation after duration
+      this._animationTimeout = window.setTimeout(() => {
+        this._completeAnimation()
+      }, this._animationDuration)
+    }, this.delay)
+  }
+
+  private _completeAnimation() {
+    this._isAnimating = false
+    
+    // Dispatch completion event
+    const event = new CustomEvent('highlight-animation-complete', {
+      bubbles: true,
+      detail: { element: this }
+    })
+    this.dispatchEvent(event)
+
+    // Check if we're the last in queue to reset processing flag
+    const myIndex = CdHighlight._highlightQueue.indexOf(this)
+    if (myIndex === CdHighlight._highlightQueue.length - 1) {
+      CdHighlight._isProcessingQueue = false
+    }
+  }
+
+  render() {
+    return html`
+      <span class="highlight-container">
+        <slot></slot>
+      </span>
+    `
+  }
+
+  static styles = css`
+    :host {
+      --highlight-color: yellow;
+      position: relative;
+      display: inline;
+      background: linear-gradient(
+        90deg,
+        var(--highlight-color) 0%,
+        var(--highlight-color) 100%
+      );
+      background-size: 0% 100%;
+      background-repeat: no-repeat;
+      background-position: left center;
+      transition: background-size var(--animation-duration, 2s) ease-out;
+    }
+
+    :host(.animate) {
+      background-size: 100% 100%;
+    }
+
+    .highlight-container {
+      position: relative;
+      display: inline;
+    }
+
+    /* Support for multiline highlighting */
+    ::slotted(*) {
+      background: inherit;
+      background-clip: text;
+      -webkit-background-clip: text;
+    }
+
+    /* Ensure the component works inline within text */
+    :host {
+      display: inline;
+      line-height: inherit;
+    }
+
+    /* Animation timing function for smooth reveal */
+    :host(.animate) {
+      animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  `
+}
+
+declare global {
+  interface HTMLElementTagNameMap {
+    'cd-highlight': CdHighlight
+  }
+}

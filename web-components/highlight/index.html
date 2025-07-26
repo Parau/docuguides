@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CD Highlight - Animated Text Highlighting</title>
+
+    <script type="module" src="/src/cd-highlight.ts"></script>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 2rem;
+        line-height: 1.6;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h1>CD Highlight Component Demo</h1>
+    
+    <div >
+      <h2>Filler</h2>
+      <p>Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler Filler </p>
+    </div>
+
+    <div >
+      <h2>Test: Basic Usage</h2>
+      <p>First paragraph. This is a simple example of <cd-highlight>#0 highlighted text</cd-highlight> within a paragraph. This is a simple example of <cd-highlight>#1 highlighted text</cd-highlight> within a paragraph.</p>
+      <p>Second paragraph. This is a simple example of <cd-highlight>#2 highlighted text</cd-highlight> within a paragraph. This is a simple example of <cd-highlight>#3 highlighted text</cd-highlight> within a paragraph.</p>
+    </div>
+    
+        <div >
+      <h2>Multiline Support</h2>
+      <div >
+        <p>This is a longer piece of text that demonstrates how the highlight component can handle 
+        <cd-highlight>text that spans multiple lines when the container is narrow enough to cause wrapping. The animation should work smoothly across all line breaks</cd-highlight> 
+        and continue to look natural.</p>
+      </div>
+    </div>
+
+    <div >
+      <h2>Test: Animation Delays</h2>
+      <p>
+        Third paragraph. This highlight has <cd-highlight delay="500">#4 a 500ms delay</cd-highlight>, while this one has <cd-highlight color="orange" delay="1000">#5 a 1000ms delay</cd-highlight>. To finish this test this <cd-highlight>#6 has no delay</cd-highlight>
+      </p>
+    </div>
+
+
+
+  </body>
+</html>

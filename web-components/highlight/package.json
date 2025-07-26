@@ -1,0 +1,20 @@
+{
+  "name": "highlight",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build-with-check": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lit": "^3.3.0"
+  },
+  "devDependencies": {
+    "terser": "^5.43.1",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  }
+}

@@ -1,0 +1,27 @@
+Change this lit based web component called cd-highlight. The new component must provide these features:
+* The component will be used to highlight a text in a web page. For exemple <p>The <cd-highlight>information I am providing here</cd-highlight> is very important.</p>
+* The component must support multiline highlight.
+* The component does not show the highlight immediately. The highlight must be animated from the left to the right.
+* If there are several highlight on the same page the animation should start with the first text marked with highlight then start the second one only when the first one is completed and so on.
+* Highlighted text that isn't currently displayed on the screen shouldn't be highlighted. The animation should only start when the text is displayed (for example, due to page scrolling). An optional parameter to the component can specify the delay time (in milliseconds) that should wait for the animation to begin.
+* The default highlight color is yellow, but you can specify a specific color for the text. 
+------
+
+
+Change this Lit-based web component named `cd-highlight`. This component should encapsulate text content and apply an animated highlight effect.
+
+The component must provide the following features:
+
+1.  **Content Slot:** The component should use a `<slot>` to wrap and display the text content to be highlighted. For example: `<p>The <cd-highlight>information I am providing here</cd-highlight> is very important.</p>`
+2.  **Multiline Support:** The highlight effect must correctly span multiple lines if the content within the `<cd-highlight>` component wraps onto new lines. The animation should apply consistently to each line segment of the highlighted text.
+3.  **Animated Reveal:** The highlight should initially be invisible. It must animate in smoothly from left to right, revealing the highlight color. This should be a 'wipe' or 'reveal' effect, not just a fade. The animation duration should be approximately 2 seconds. This time can grow depending on the size of the text been highlighted.
+4.  **Sequential Animation (DOM Order):** If multiple `cd-highlight` components are present on the same page, their animations must occur sequentially based on their order in the Document Object Model (DOM). Each component should only begin its animation after the animation of the preceding `cd-highlight` component has fully completed. This could involve using custom events to signal completion.
+5.  **Viewport Visibility Trigger:** The highlight animation should only trigger when the `cd-highlight` component becomes visible within the user's viewport (e.g., due to page scrolling). 
+6.  **Animation Delay Property:** The component must expose an optional Lit property named `delay` (number, default `0`). This property, specified in milliseconds, will add an additional waiting period before the animation begins, once the component is in view.
+7.  **Customizable Highlight Color:** The default highlight background color should be `yellow`. The component must expose a Lit property named `color` (string) that allows users to specify a custom highlight background color (e.g., `<cd-highlight color="lightblue">`). This color should be applied using CSS custom properties for flexible styling.
+
+**These are technical considerations for implementation, but you can youse another strategy if you consider it better than what i am proposing here:**
+* Utilize Lit's reactive properties and rendering lifecycle.
+* Leverage CSS for animations (e.g., `linear-gradient` with `background-size` and `background-position`, or `clip-path`).
+* Implement `IntersectionObserver` for visibility detection.
+* Consider using custom events (`CustomEvent`) to signal animation completion for sequential triggering.

@@ -16,7 +16,7 @@ const sidebars: SidebarsConfig = {
         type: 'doc',
         id: 'curioso',
       },
-      items: ['login/uso_pessoal', 'conquistanomeproprio', 
+      items: ['login/uso_pessoal', 'login/uso_team', 
               'textosmusicas',  'bancoatividades', 'palavrasfavoritas'],
     },
     {
