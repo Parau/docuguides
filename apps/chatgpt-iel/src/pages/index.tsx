@@ -86,19 +86,14 @@ export default function Home() {
       <main>
         {/* We wrap the content in a container for proper alignment and padding. */}
         <div className="container" style={{padding: '2rem 1rem'}}>
-          <section style={{marginBottom: '2rem'}}>
-            <Heading as="h2">Sobre este guia</Heading>
+          <section
+            style={{
+              margin: '0 auto 2rem auto',
+              maxWidth: '700px',
+              width: '100%',
+            }}>
             <p>
-              Parte do <strong>Projeto Dia Nacional do Livro Infantil</strong>,
-              este guia destaca o valor do <em>nome próprio</em> como ponto de
-              partida para uma alfabetização significativa. Mais do que letras,
-              traz identidade, pertencimento e afeto — essenciais para tornar a
-              aprendizagem próxima das crianças.
-            </p>
-            <p>
-              Nosso objetivo é <strong>despertar e fortalecer o gosto pela
-              leitura</strong>, promovendo experiências prazerosas com livros
-              desde os primeiros anos.
+              Olá! Sou Parahuari Branco, especialista em tecnologia e educação, e este é o guia do curso <b>GPT Estratégico: <i>domine o uso estratégico do ChatGPT no ambiente corporativo</i></b>. Este curso foi criado para profissionais que desejam ir além do uso básico da inteligência artificial e aplicar o ChatGPT de forma estratégica em suas rotinas, processos e tomadas de decisão. Meu objetivo é oferecer um conteúdo claro, prático e direto ao ponto — sem abrir mão dos principais aspectos técnicos — para que você utilize o potencial do ChatGPT com segurança e confiança. <b>Mais do que <i>prompts</i>. Estratégia. Eficiência. Crescimento.</b>
             </p>
           </section>
 

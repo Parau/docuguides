@@ -5,8 +5,8 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'ChatGPT',
-  tagline: 'ChatGPT - IEL/PR',
+  title: 'GPT Estratégico - IEL/PR',
+  tagline: 'Domine o uso estratégico do ChatGPT no ambiente corporativo.',
   url: 'https://criatividade.digital',
   baseUrl: '/ChatGPT-IEL/',
   favicon: 'img/iel.png',
