@@ -80,8 +80,8 @@ export default function Home() {
 
   return (
     <Layout
-      title="A Importância do Nome na Alfabetização"
-      description="Explore a proposta deste guia voltado para a alfabetização a partir do nome próprio.">
+      title="ChatGPT Estratégico"
+      description="GPT Estratégico: domine o uso estratégico do ChatGPT no ambiente corporativo.">
       <HomepageHeader />
       <main>
         {/* We wrap the content in a container for proper alignment and padding. */}
