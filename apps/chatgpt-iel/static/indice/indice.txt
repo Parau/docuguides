@@ -5,8 +5,10 @@ markmap:
 ---
 # <img src="./indice/nivel1.svg" alt="Nível Curioso" style="height:3em;vertical-align:middle;padding:0;margin:0;border:0;" /> <a href="./docs/curioso" style="color:black;">Curioso</a> 
 ## Login
-- <a href="./docs/login/uso_pessoal" style="color:black;">Versão Grátis, Plus e Pro.</a>  
-- <a href="./docs/login/uso_team" style="color:black;">Versão Team.</a> 
+- <a href="./docs/curioso/login/uso_pessoal" style="color:black;">Versão Grátis, Plus e Pro</a>  
+- <a href="./docs/curioso/login/uso_team" style="color:black;">Versão Team</a> 
+## <a href="./docs/curioso/primeiros_exemplos" style="color:black;">Primeiros exemplos</a>  
 # <img src="./indice/nivel2.svg" alt="Nível Iniciação" style="height:3em;vertical-align:middle;padding:0;margin:0;border:0;" />Iniciação 
 - Vocabulário
 - Ferramentas <!-- markmap: fold -->
+
