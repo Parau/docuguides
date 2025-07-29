@@ -14,7 +14,7 @@ const sidebars: SidebarsConfig = {
       label: 'CURIOSO',
       link: {
         type: 'doc',
-        id: 'curioso/curioso',
+        id: 'curioso/curioso-abertura',
       },
       items: ['curioso/login/uso_pessoal', 'curioso/login/uso_team', 
               'curioso/primeiros_exemplos', 'curioso/vamos_esclarecer'],
