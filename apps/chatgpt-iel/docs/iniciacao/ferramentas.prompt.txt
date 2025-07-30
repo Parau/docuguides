@@ -1,0 +1,22 @@
+Assuma o papel de um autor de material didático. Você deverá gerar um texto que explica as ferramentas disponiveis no ChatGPT para um leigo em tecnologia. As ferramentas a serem abordadas:
+* Investigar
+* Criar imagem
+* Estudar e aprender
+* Busca na web
+* Lousa
+* Sora
+* GPTs
+* Codex
+
+IMPORTANTE:
+* Utilize linguagem acessível, evitando jargões técnicos sempre que possível e utilizando metáforas e analogias claras para facilitar a compreensão.
+* Para cada ferramenta contemple os seguintes itens: 
+  - O que é.
+  - Para que serve.
+  - Dois exemplos de uso corporativo.
+* Antes de descrever cada ferramenta valide na web as funcionalidades mais recentes delas (considere que estamos em 2025).
+
+
+Valide a acuracidade do texto gerado confrontando com as informações mais atualizadas da internet.
+
+reescreva o Investigar (Deep Research) a partir destas novas informações.

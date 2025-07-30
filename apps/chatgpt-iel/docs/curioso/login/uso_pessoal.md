@@ -7,8 +7,6 @@ import { Highlight }  from '@site/src/components/highlightv2'
 # Login
 *Versão Grátis, Plus e Pro.*
 
-https://markmap.js.org/
-
 <details>
 <summary>Prompt usado para gerar este texto. <small>(*Gemini 2.5 Pro*)</small></summary>
 <div>

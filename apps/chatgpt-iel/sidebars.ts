@@ -22,8 +22,28 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'INICIAÇÃO',
-      items: ['iniciacao/vocabulario'],
-    },
+      link: {
+        type: 'doc',
+        id: 'iniciacao/iniciacao-abertura',
+      },
+      items: [
+        {
+          type: 'category',
+          label: 'Vocabulário',
+          items: [
+            'iniciacao/vocabulario',
+            'iniciacao/chatgpt',
+            'iniciacao/LLM',
+            'iniciacao/prompts'
+          ],
+        },
+        {
+        type: 'doc',
+        label: 'Ferramentas',
+        id: 'iniciacao/ferramentas',
+        }
+      ]
+    }
   ]
 };
 

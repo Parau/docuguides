@@ -3,9 +3,8 @@ import IconCopy from '@theme/Icon/Copy'
 import LigaHighlight from '@site/src/components/gsap/highlight'
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-# Vocabulário
+# O professor GPT
 <LigaHighlight />
-
 
 Quando lidamos com novas tecnologias, <span class="text-highlight">é importante começar com definições básicas</span> que servem como o alicerce para o restante da jornada. No caso do ChatGPT, <span class="text-highlight">três termos são essenciais:</span> **ChatGPT**, ***Prompt*** e **LLM** (*Large Language Models*).
 
@@ -16,7 +15,7 @@ Em vez de simplesmente listar e explicar esses termos, farei algo diferente: <sp
 </center>
 
 ## Como utilizar o ChatGPT para aprender
-A seguir, sugiro várias perguntas que você pode fazer ao ChatGPT. Escolha as que achar mais interessantes e experimente os resultados. Você pode usar o ícone <IconCopy style={{ width: '14', height: '14' }} /> para <span class="text-highlight">copiar a pergunta e colá-la diretamente no ChatGPT</span>, ou, se preferir, clicar no ícone <IconExternalLink /> para ver a resposta que obtive ao fazer essa pergunta. Basta passar o mouse sobre a pergunta ou clicar nela para visualizar estes ícones.
+A seguir, sugiro várias perguntas que você pode fazer ao ChatGPT. Escolha as que achar mais interessantes e experimente os resultados. Você pode usar o ícone <IconCopy style={{ width: '14', height: '14' }} /> para <span class="text-highlight">copiar a pergunta e colá-la diretamente no ChatGPT</span>. Basta passar o mouse sobre a pergunta ou clicar nela para visualizar estes ícones.
 
 ### *O que é ChatGPT?*
 Vamos começar pedindo ao ChatGPT para se apresentar.
