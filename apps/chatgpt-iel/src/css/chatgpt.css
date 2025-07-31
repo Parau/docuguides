@@ -1,0 +1,63 @@
+/* Adicione ao final do arquivo */
+
+.chat-container {
+  max-width: 800px;
+  margin: 20px 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.chat-message {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 12px;
+}
+
+.chat-message.user {
+  flex-direction: row-reverse;
+}
+
+.chat-avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+}
+
+.chat-avatar.user::before {
+  content: "👤";
+}
+
+.chat-avatar.assistant::before {
+  content: "🤖";
+}
+
+.chat-avatar.user {
+  background: #73abf3;
+}
+
+.chat-avatar.assistant {
+  background: #ddddde;
+}
+
+.chat-content p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.chat-content {
+  background: var(--ifm-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: 12px;
+  padding: 10px;
+  max-width: 70%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.chat-message.user .chat-content {
+  background: #e7e7e8;
+}

@@ -19,6 +19,7 @@
     "@docusaurus/plugin-google-gtag": "^3.8.1",
     "@docusaurus/plugin-google-tag-manager": "^3.8.1",
     "@docusaurus/preset-classic": "3.8.1",
+    "@docusaurus/theme-mermaid": "^3.7.0",
     "@lit/react": "^1.0.8",
     "@mdx-js/react": "^3.0.0",
     "@tabler/icons-react": "^3.34.0",
@@ -31,7 +32,8 @@
     "react-lite-youtube-embed": "^2.5.1",
     "react-player": "^3.0.0",
     "markmap-lib": "^0.18.12",
-    "markmap-view": "^0.18.12"
+    "markmap-view": "^0.18.12",
+    "@react-spring/web": "^9.7.4"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.8.1",

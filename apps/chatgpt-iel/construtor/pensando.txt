@@ -1,0 +1,109 @@
+https://help.openai.com/en/articles/7864572-what-is-the-chatgpt-model-selector
+
+igual os cartões do super trunfo?
+
+
+
+### 🟣 **GPT-4o**
+
+| Atributo                        | Valor                                                                                            |
+| ------------------------------- | ------------------------------------------------------------------------------------------------ |
+| ⚡ **Velocidade**                | 9                                                                                                |
+| 🎨 **Criatividade**             | 8                                                                                                |
+| ✅ **Precisão / Rigor**          | 8                                                                                                |
+| 🧠 **Raciocínio Lógico**        | 7                                                                                                |
+| 🖼️🔊 **Multimodalidade**       | Sim (texto, imagem e áudio)                                                                      |
+| 📅 **Data de corte**            | 2024                                                                                             |
+| 💰 **Custo API (input/output)** | `$0.005 / $0.015` por 1.000 tokens                                                               |
+| 📝 **Descrição**                | Modelo versátil e rápido, ideal para texto, imagem e voz. Boa escolha geral com custo acessível. |
+
+---
+
+### 🔵 **GPT-4.1 mini**
+
+| Atributo                        | Valor                                                                                              |
+| ------------------------------- | -------------------------------------------------------------------------------------------------- |
+| ⚡ **Velocidade**                | 9                                                                                                  |
+| 🎨 **Criatividade**             | 7                                                                                                  |
+| ✅ **Precisão / Rigor**          | 8                                                                                                  |
+| 🧠 **Raciocínio Lógico**        | 7                                                                                                  |
+| 🖼️🔊 **Multimodalidade**       | Sim                                                                                                |
+| 📅 **Data de corte**            | 2025                                                                                               |
+| 💰 **Custo API (input/output)** | *Não disponível publicamente*                                                                      |
+| 📝 **Descrição**                | Versão leve do GPT-4. Rápido, eficiente e multimodal. Alternativa gratuita ou de backup ao GPT-4o. |
+
+---
+
+### 🟢 **GPT-4.5**
+
+| Atributo                        | Valor                                                                                                |
+| ------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| ⚡ **Velocidade**                | 7                                                                                                    |
+| 🎨 **Criatividade**             | 8                                                                                                    |
+| ✅ **Precisão / Rigor**          | 9                                                                                                    |
+| 🧠 **Raciocínio Lógico**        | 8                                                                                                    |
+| 🖼️🔊 **Multimodalidade**       | Parcial                                                                                              |
+| 📅 **Data de corte**            | 2025                                                                                                 |
+| 💰 **Custo API (input/output)** | `$0.01 / $0.03` por 1.000 tokens                                                                     |
+| 📝 **Descrição**                | Respostas cuidadosas, empáticas e detalhadas. Excelente para comunicação sensível e conteúdo humano. |
+
+---
+
+### 🔶 **o3**
+
+| Atributo                        | Valor                                                                                                    |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| ⚡ **Velocidade**                | 6                                                                                                        |
+| 🎨 **Criatividade**             | 6                                                                                                        |
+| ✅ **Precisão / Rigor**          | 10                                                                                                       |
+| 🧠 **Raciocínio Lógico**        | 10                                                                                                       |
+| 🖼️🔊 **Multimodalidade**       | Sim (foco técnico e estruturado)                                                                         |
+| 📅 **Data de corte**            | 2025                                                                                                     |
+| 💰 **Custo API (input/output)** | `$0.015 / $0.03` por 1.000 tokens                                                                        |
+| 📝 **Descrição**                | Alta performance em ciência, programação e cálculos. Foco técnico e analítico, ideal para profissionais. |
+
+---
+
+### 🟡 **o4-mini**
+
+| Atributo                        | Valor                                                                                                         |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| ⚡ **Velocidade**                | 10                                                                                                            |
+| 🎨 **Criatividade**             | 6                                                                                                             |
+| ✅ **Precisão / Rigor**          | 8                                                                                                             |
+| 🧠 **Raciocínio Lógico**        | 9                                                                                                             |
+| 🖼️🔊 **Multimodalidade**       | Sim                                                                                                           |
+| 📅 **Data de corte**            | 2025                                                                                                          |
+| 💰 **Custo API (input/output)** | `$0.0025 / $0.005` por 1.000 tokens                                                                           |
+| 📝 **Descrição**                | Rápido, eficiente e ótimo para tarefas estruturadas. Excelente equilíbrio entre custo, agilidade e qualidade. |
+
+
+
+### 🟠 **o4-mini-high**
+
+| Atributo                        | Valor                                                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| ⚡ **Velocidade**                | 10                                                                                                                       |
+| 🎨 **Criatividade**             | 7                                                                                                                        |
+| ✅ **Precisão / Rigor**          | 9                                                                                                                        |
+| 🧠 **Raciocínio Lógico**        | 9                                                                                                                        |
+| 🖼️🔊 **Multimodalidade**       | Sim                                                                                                                      |
+| 📅 **Data de corte**            | 2025                                                                                                                     |
+| 💰 **Custo API (input/output)** | `$0.003 / $0.006` por 1.000 tokens                                                                                       |
+| 📝 **Descrição**                | Versão mais potente do o4-mini, ideal para raciocínio técnico com rapidez. Ótimo custo-benefício para tarefas exigentes. |
+
+
+
+### 🧿 **GPT-4.1**
+
+| Atributo                        | Valor                                                                                                                                     |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| ⚡ **Velocidade**                | 8                                                                                                                                         |
+| 🎨 **Criatividade**             | 8                                                                                                                                         |
+| ✅ **Precisão / Rigor**          | 9                                                                                                                                         |
+| 🧠 **Raciocínio Lógico**        | 9                                                                                                                                         |
+| 🖼️🔊 **Multimodalidade**       | Sim                                                                                                                                       |
+| 📅 **Data de corte**            | 2025                                                                                                                                      |
+| 💰 **Custo API (input/output)** | `$0.01 / $0.03` por 1.000 tokens                                                                                                          |
+| 📝 **Descrição**                | Atualização robusta do GPT-4 com melhorias de instrução, desempenho multimodal e refinamento de raciocínio. Ideal para tarefas complexas. |
+

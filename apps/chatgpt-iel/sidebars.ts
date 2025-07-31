@@ -17,7 +17,7 @@ const sidebars: SidebarsConfig = {
         id: 'curioso/curioso-abertura',
       },
       items: ['curioso/login/uso_pessoal', 'curioso/login/uso_team', 
-              'curioso/primeiros_exemplos', 'curioso/vamos_esclarecer'],
+              'curioso/primeiros_exemplos', 'curioso/porqueChatGPT', 'curioso/vamos_esclarecer'],
     },
     {
       type: 'category',
@@ -36,12 +36,22 @@ const sidebars: SidebarsConfig = {
             'iniciacao/LLM',
             'iniciacao/prompts'
           ],
-        },
-        {
+      },
+        'iniciacao/ferramentas',
+        'iniciacao/modo-agente',
+        'iniciacao/limites-uso'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'EXPLORADOR',
+      link: {
         type: 'doc',
-        label: 'Ferramentas',
-        id: 'iniciacao/ferramentas',
-        }
+        id: 'explorador/explorador-abertura',
+      },
+      items: [
+        'explorador/desmistificando', 'explorador/criatividade', 
+        'explorador/alucinacao', 'explorador/vies', 'explorador/privacidade',
       ]
     }
   ]
