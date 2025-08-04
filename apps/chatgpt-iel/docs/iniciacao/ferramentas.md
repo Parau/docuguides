@@ -1,10 +1,10 @@
 # Ferramentas do ChatGPT
 
 Imagine o ChatGPT como uma caixa de ferramentas inteligente. Vamos falar de algumas delas:
-* **Investigar** é uma lente que lê o mundo pra você.
+* **Investigar** pesquisa aprofundada em múltiplas fontes da web.
 * **Criar imagem** e **Sora** são lápis e câmera para sua criatividade.
 * **Estudar e aprender** é um professor paciente.
-* **Busca na web** e **Deep Research** trazem a informação do mundo real atualizada.
+* **Busca na web** explora e busca informações atualizadas da web.
 * **Lousa** é seu quadro branco digital.
 * **GPTs** são ajudantes especializados.
 * **Codex** é seu programador virtual.

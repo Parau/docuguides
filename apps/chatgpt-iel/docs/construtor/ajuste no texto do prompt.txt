@@ -1,0 +1,23 @@
+Formato: Define como a resposta deve ser estruturada, incluindo o tipo de apresentação, como lista, parágrafos explicativos, ou tabela comparativa, e também a quantidade ou tamanho desejado, como o número de palavras ou a extensão de cada seção. Especificar o formato ajuda a obter uma resposta que se encaixe melhor nas suas necessidades.
+
+INCLUIR TOM
+Sugestão ajustada.
+Formato: Define a apresentação da resposta, incluindo a estrutura (lista, tabela, tabela comparativa, parágrafos explicativos), o tom da escrita (formal, casual, técnico) e o tamanho desejado (número de palavras, extensão de cada seção). Especificar o formato ajuda a obter uma resposta que se encaixe melhor nas suas necessidades.
+
+
+Incluir isso como dica no texto
+Iterative refinement
+Prompt engineering often requires an iterative approach. Start with an initial prompt, review the response, and refine the prompt based on the output. Adjust the wording, add more context, or simplify the request as needed to improve the results.
+
+Mais uma dica
+Right-Size and Prioritize Your Requests
+If your task is complex, break it into smaller, focused prompts for better outcomes.
+
+Outra dica:
+Reduce “fluffy” and imprecise descriptions
+Less effective ❌: The description for this product should be fairly short, a few sentences only, and not too much more.
+Better ✅:Use a 3 to 5 sentence paragraph to describe this product.
+
+Instead of just saying what not to do, say what to do instead
+Less effective ❌:The following is a conversation between an Agent and a Customer. DO NOT ASK USERNAME OR PASSWORD. DO NOT REPEAT.
+Better ✅:The following is a conversation between an Agent and a Customer. The agent will attempt to diagnose the problem and suggest a solution, whilst refraining from asking any questions related to PII. Instead of asking for PII, such as username or password, refer the user to the help article www.samplewebsite.com/help/faq
