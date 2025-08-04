@@ -1,0 +1,11 @@
+## Prompt inicial
+Visite os links abaixo relativos a documentação dos modelos disponíveis no ChatGPT e gere uma tabela contendo os seguintes campos: Nome do modelo, descritivo, classificação de inteligência e/ou reasoning, velocidade, preco (entrada e saída), tipos de input, tipos de output, tamanho da context window, max output tokens, knowledge cutoff.
+
+https://platform.openai.com/docs/models/gpt-4o
+https://platform.openai.com/docs/models/o3
+https://platform.openai.com/docs/models/o4-mini
+https://platform.openai.com/docs/models/gpt-4.5-preview
+https://platform.openai.com/docs/models/gpt-4.1
+https://platform.openai.com/docs/models/gpt-4.1-mini
+
+## Complementando

@@ -1,0 +1,62 @@
+/* --- Classe principal para o layout da tabela --- */
+.custom-table {
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+.coluna-custo {
+  white-space: nowrap; /* Impede que o texto quebre em várias linhas */
+  width: 1%;           /* Força a coluna a ter a largura mínima de seu conteúdo */
+}
+
+/* --- Estilos de Borda --- */
+.border { border-width: 1px; }
+.border-solid { border-style: solid; }
+.border-gray-200 { border-color: #e5e7eb; }
+.rounded-lg { border-radius: 0.55rem; }
+.border-b { border-bottom-width: 1px; }
+.border-r { border-right-width: 1px; }
+
+/* --- Layout e Espaçamento --- */
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+.p-3 { padding: 1rem; }
+.mt-1 { margin-top: 0.25rem; }
+.gap-1 { gap: 0.25rem; }
+.px-3 {
+  padding-left: 1rem;   /* 16px */
+  padding-right: 1rem;  /* 16px */
+}
+.py-1 {
+  padding-top: 0.20rem;    
+  padding-bottom: 0.20rem; 
+}
+.py-2 {
+  padding-top: 0.5rem;     /* 8px */
+  padding-bottom: 0.5rem;  /* 8px */
+}
+
+/* --- Utilitários Flexbox para Alinhamento --- */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.flex-row { flex-direction: row; }
+.items-center { align-items: center; }
+.justify-center { justify-content: center; }
+
+/* --- Estilos de Texto --- */
+.text-center { text-align: center; }
+.font-semibold { font-weight: 600; }
+.font-bold { font-weight: 700; }
+.text-lg { font-size: 1.125rem; line-height: 1.75rem; }
+.text-xs { font-size: 0.75rem; line-height: 1rem; }
+.text-gray-400 { color: #9ca3af; }
+
+/* --- Estilo para seus SVGs --- */
+.custom-table svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: currentColor;
+  /*stroke: currentColor;*/
+}
+

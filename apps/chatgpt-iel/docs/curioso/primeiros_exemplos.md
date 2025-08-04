@@ -76,5 +76,3 @@ Assuma o papel de um revisor experiente e revise o texto a seguir, priorizando o
 [[[coloque seu texto aqui]]]
 ```
 Esses são só os primeiros passos. Ao experimentar esses exemplos, você começa a entender o verdadeiro poder do ChatGPT: **ele não é apenas uma ferramenta de respostas, mas um parceiro de escrita, de pensamento e até de organização**.
-
-

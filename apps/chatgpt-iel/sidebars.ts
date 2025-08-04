@@ -53,6 +53,18 @@ const sidebars: SidebarsConfig = {
         'explorador/desmistificando', 'explorador/criatividade', 
         'explorador/alucinacao', 'explorador/vies', 'explorador/privacidade',
       ]
+    },
+    {
+      type: 'category',
+      label: 'CONSTRUTOR',
+      link: {
+        type: 'doc',
+        id: 'construtor/construtor-abertura',
+      },
+      items: [
+        'construtor/prompt', 'construtor/prompt-dicas', 
+        'construtor/oraculo/index', 'construtor/modelos/modelos'
+      ]
     }
   ]
 };

@@ -5,7 +5,44 @@ sidebar_label: Apresentação
 slug: /
 ---
 import { Highlight }  from '@site/src/components/highlightv2'
+import CueCards from '@site/src/components/slides/CueCards';
+import mindmapConstrucaoAgentes from '@site/docs/slide_construcao_agentes.jpg';
 
+export const cardsApresentacao = [
+  {
+    title: "🙂 Bem-vindos!",
+    description: `
+    <ul style="text-align: left;">
+      <li>Parahuari Branco</li>
+      <ul>
+        <li>Parau</li>
+        <li>Ari</li>
+      </ul>
+      <li>Inovação tecnológica na educação.</li>
+      <li><a href='https://www.linkedin.com/in/parau/' target='_blank'>www.linkedin.com/in/parau/</a>
+    </ul>
+    `,
+    backgroundColor:"#74b9ff"
+  },
+  {
+    title: "ChatGPT Estratégico",
+    description: `
+    <ul style="text-align: left;">
+      <li>Domine o uso estratégico do ChatGPT no ambiente corporativo.</li> 
+    </ul>
+    `,
+    backgroundColor: "rgb(77, 226, 132)"
+  },
+  {
+    title: "Vamos começar??",
+    description: `<img src="${mindmapConstrucaoAgentes}" style="width: 100%; height: auto;" />
+    `,
+    backgroundColor: "#ffc000"
+  },
+];
+
+<CueCards cardsData={cardsApresentacao} title="Slides da apresentação" open={false}/>
+<br />
 Parabéns por iniciar sua jornada no <Highlight>GPT Estratégico</Highlight>: *domine o uso estratégico do ChatGPT no ambiente corporativo*! O simples fato de estar aqui já demonstra sua curiosidade e disposição para explorar o fascinante mundo da inteligência artificial. Este é o primeiro passo para <Highlight>transformar a maneira como você pensa e trabalha com o ChatGPT</Highlight>.  
 
 Meu objetivo neste guia é oferecer um conteúdo claro, prático e direto ao ponto — sem abrir mão dos aspectos técnicos essenciais — para que você aproveite ao máximo o potencial do ChatGPT, com segurança e confiança. <Highlight>Mais do que prompts. Estratégia. Eficiência. Crescimento.</Highlight>
