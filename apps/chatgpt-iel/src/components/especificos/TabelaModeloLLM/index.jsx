@@ -48,9 +48,9 @@ function TabelaModeloLLM({ modelo }) {
         <tr className="border-b border-solid border-gray-200">
           <th className="px-3 py-1 font-semibold border-r border-solid border-gray-200">{rotuloCabecalho}</th>
           <th className="px-3 py-1 font-semibold border-r border-solid border-gray-200">Velocidade</th>
-          <th className="px-3 py-1 font-semibold border-r border-solid border-gray-200 coluna-custo">Custo</th>
           <th className="px-3 py-1 font-semibold border-r border-solid border-gray-200">Entrada</th>
           <th className="px-3 py-1 font-semibold">Saída</th>
+          <th className="px-3 py-1 font-semibold border-r border-solid border-gray-200 coluna-custo">Custo</th>
         </tr>
       </thead>
       <tbody>
@@ -84,16 +84,7 @@ function TabelaModeloLLM({ modelo }) {
               )}
             </div>
           </td>
-          
-          {/* As colunas restantes não precisam de alteração, pois já usavam a estrutura de objeto */}
-          {/* Coluna de Custo */}
-          <td className="p-3 border-r border-solid border-gray-200 coluna-custo">
-            <div className="flex flex-col items-center justify-center h-full">
-              <span className="text-lg font-bold">{modelo.custo.valor}</span>
-              <div className="text-xs text-gray-400 mt-1">{modelo.custo.subtexto}</div>
-            </div>
-          </td>
-
+         
           {/* Coluna de Entrada */}
           <td className="p-3 border-r border-solid border-gray-200">
             <div className="flex flex-col items-center justify-center h-full">
@@ -115,6 +106,14 @@ function TabelaModeloLLM({ modelo }) {
                 ))}
               </span>
               <div className="text-xs text-gray-400 mt-1">{modelo.saida.subtexto}</div>
+            </div>
+          </td>
+
+          {/* Coluna de Custo */}
+          <td className="p-3 border-r border-solid border-gray-200 coluna-custo">
+            <div className="flex flex-col items-center justify-center h-full">
+              <span className="text-lg font-bold">{modelo.custo.valor}</span>
+              <div className="text-xs text-gray-400 mt-1">{modelo.custo.subtexto}</div>
             </div>
           </td>
         </tr>
